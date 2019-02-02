@@ -1,3 +1,27 @@
+# Human Resource Admin Management System</b>
+ 
+## Team Members
+ - Songren Zhao
+ - Zhiwei Huang
+ 
+## Why are we developing this application, and why only us?
+ - <i><b>Open source Application</b></i>. We would like to offer HR students and unexperienced professions an opportunity to familiarize the dashboard system before they are entering their careers
+ - <i><b>HR Monitoring</b></i>. Regular reporting enables HR to keep a finger on the pulse of the organizations by tracking key workforce metrics
+ - <i><b>Management information</b></i>. An HR report can also help managers in doing their job better. An HR report can inform managers about relevant developments in their teams and department
+ - <i><b>Track problem areas</b></i>. HR reporting also offers a great way to track key problem areas in a transparent way. Transparency in turnover rates per manager will encourage them to pay closer attention to retaining employees because their own reputation is on the line! 
+ 
+## Tools
+ - Software Application: Visual Code Studio
+ - Front-end: React.Js, Material UI, Chart.Js, Rechart.Js
+ - Back-end: Node.Js, Express.Js
+ - Database: Firebase Authentification
+
+## Task Bulletin
+### Sign in 
+ - [x] Admins sign in options
+ - [ ] Reset password options
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
