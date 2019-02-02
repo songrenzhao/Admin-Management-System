@@ -25,11 +25,11 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const data = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
+  createData('Adams Stones', 45, 6, '1/22/2009', "Software Developer"),
+  createData('Brian Williams', 43, 7, '3/11/2014', "Software Engineer"),
+  createData('Curli Dali', 32, 14, '3/31/2018', "Project Manager"),
+  createData('David Standwell', 39, 12, '5/26/2017', "Junior Software Developer"),
+  createData('Ellen Wan', 50, 17, '7/18/2015', "Human Resource"),
 ];
 
 function SimpleTable(props) {
@@ -40,11 +40,11 @@ function SimpleTable(props) {
       <Table className={classes.table}>
         <TableHead>
           <TableRow>
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat (g)</TableCell>
-            <TableCell align="right">Carbs (g)</TableCell>
-            <TableCell align="right">Protein (g)</TableCell>
+            <TableCell>Name</TableCell>
+            <TableCell align="right">Work hours (Current Month)</TableCell>
+            <TableCell align="right">Project completions</TableCell>
+            <TableCell align="right">Employment start dates </TableCell>
+            <TableCell align="right">Position</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

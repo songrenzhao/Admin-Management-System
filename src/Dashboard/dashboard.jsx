@@ -14,14 +14,16 @@ import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { mainListItems, secondaryListItems } from './listitems';
+import { mainListItems, secondaryListItems } from '../listitems';
 import PicAvatar from './avatar/avatar.jsx';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import Grid from '@material-ui/core/Grid';
 import SimpleLineChart from './Charts/Linecharts/SimpleLineChart';
 import SimpleTable from './Charts/Linecharts/SimpleTable.jsx';
-
+import Doughnut from './Charts/SalaryCircle/Doughnut.jsx'
+import BarChart from './Charts/BarCharts/Barcharts.jsx'
+import RadarCharts from './Charts/RadarChart/RadarChart.jsx'
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -240,43 +242,35 @@ class Dashboard extends React.Component {
                     <Grid container spacing={24} direction="row" justify="space-evenly" alignItems="flex-end">
                         <Grid item xs={3} >
                             <Typography component="div" className={classes.chartContainer}>
-                                <Typography variant="h4" gutterBottom component="h2">
-                                    Entries
-                            </Typography>
-                                <SimpleLineChart />
-                            </Typography>
-                        </Grid>
-
-                        <Grid item xs={3} >
-                            <Typography component="div" className={classes.chartContainer}>
-                                <Typography variant="h4" gutterBottom component="h2">
-                                    Entries
-                            </Typography>
-                                <SimpleLineChart />
-                            </Typography>
-                        </Grid>
-
-                        <Grid item xs={3} >
-                            <Typography component="div" className={classes.chartContainer}>
-                                <Typography variant="h4" gutterBottom component="h2">
-                                    Entries
+                                <Typography variant="h6" gutterBottom component="h2">
+                                    Organization Overview
                                 </Typography>
-                                <SimpleLineChart />
+                                <Doughnut />
                             </Typography>
                         </Grid>
 
                         <Grid item xs={3} >
                             <Typography component="div" className={classes.chartContainer}>
-                                <Typography variant="h4" gutterBottom component="h2">
-                                    Entries
+                                <Typography variant="h6" gutterBottom component="h2">
+                                    Salary overview
                                 </Typography>
-                                <SimpleLineChart />
+                                <BarChart />
                             </Typography>
                         </Grid>
+
+                        <Grid item xs={3} >
+                            <Typography component="div" className={classes.chartContainer}>
+                                <Typography variant="h6" gutterBottom component="h2">
+                                    Performance Overview
+                                </Typography>
+                                <RadarCharts />
+                            </Typography>
+                        </Grid>
+
 
                         <Grid item xs={12}>
-                            <Typography variant="h4" gutterBottom component="h2">
-                                Products
+                            <Typography align = "center" variant="h6" gutterBottom component="h2">
+                                MVPs of the Month
                             </Typography>
                             <div className={classes.tableContainer}>
                                 <SimpleTable />
