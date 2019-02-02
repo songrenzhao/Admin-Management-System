@@ -4,7 +4,7 @@
  - Songren Zhao
  - Zhiwei Huang
  
-## Why are we developing this application, and why only us?
+## Why are we developing this application, and why us?
  - <i><b>Open source Application</b></i>. We would like to offer HR students and unexperienced professions an opportunity to familiarize the dashboard system before they are entering their careers
  - <i><b>HR Monitoring</b></i>. Regular reporting enables HR to keep a finger on the pulse of the organizations by tracking key workforce metrics
  - <i><b>Management information</b></i>. An HR report can also help managers in doing their job better. An HR report can inform managers about relevant developments in their teams and department
