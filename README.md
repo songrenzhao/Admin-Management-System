@@ -5,7 +5,7 @@
  - Zhiwei Huang
  
 ## Why are we developing this application, and why us?
- - <i><b>Open source Application</b></i>. We would like to offer HR students and unexperienced professions an opportunity to familiarize the dashboard system before they are entering their careers
+ - <i><b>Open source Application</b></i>. We would like to offer HR students and inexperienced enthusiasts an opportunity to familiarize the dashboard system before they are entering their careers
  - <i><b>HR Monitoring</b></i>. Regular reporting enables HR to keep a finger on the pulse of the organizations by tracking key workforce metrics
  - <i><b>Management information</b></i>. An HR report can also help managers in doing their job better. An HR report can inform managers about relevant developments in their teams and department
  - <i><b>Track problem areas</b></i>. HR reporting also offers a great way to track key problem areas in a transparent way. Transparency in turnover rates per manager will encourage them to pay closer attention to retaining employees because their own reputation is on the line! 
